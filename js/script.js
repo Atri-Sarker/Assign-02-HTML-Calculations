@@ -108,7 +108,7 @@ function onCalculateBtnClick() {
   let yIntercept = c;
 
   // Difference between Vertex X-value and X-intercept X values
-  // Used for calculating the x intercept via add&sub onto the vetex X-value
+  // Used for calculating the x intercept via add&sub onto the vertex X-value
   let vertexInterceptDiff = calculateQuadraticFormulaRoot(a, b, c);
 
   // Get X-Intercepts using the Difference and Vertex x-value
