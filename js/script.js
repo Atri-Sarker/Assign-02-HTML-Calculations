@@ -160,5 +160,5 @@ inputC.oninput = validateInputs;
 // Initial Call, To disable the button
 validateInputs();
 
-// Connect Button Click to the Calulate Function
+// Connect Button Click to the Calculate Function
 calculateBtn.onclick = onCalculateBtnClick
