@@ -103,7 +103,7 @@ function onCalculateBtnClick() {
   let vertexForm = "" + fNum(m) + "(x" + (h >= 0 ? " + " : " - ") + fNum(Math.abs(h)) + ")²" + (k >= 0 ? " + " : " - ") + fNum(Math.abs(k));
 
   // Vertex Coordinate String
-  let vertexCoordinate = `(${fNum(h)},${fNum(k)})`
+  let vertexCoordinate = `( ${fNum(h)} , ${fNum(k)} )`
 
   // Y-Intercept
   let yIntercept = c;

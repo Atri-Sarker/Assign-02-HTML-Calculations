@@ -29,6 +29,9 @@ body {
   filter: blur(8px);
 }
 
+#calculateBtn {
+  margin-top: 32px;
+}
 .bottom-logo {
   padding: 10px;
   width: clamp(32px, 30%, 256px);
