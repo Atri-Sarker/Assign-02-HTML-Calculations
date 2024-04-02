@@ -1,4 +1,36 @@
-/* Created by: Mr. Coxall
-* Created on: Sep 2020
+/* Created by: Atri Sarker
+* Created on: April 2024
 * This file contains the CSS for index.html
 */
+
+body {
+  background: linear-gradient(to bottom, #ffe5e5, #e1fefe);
+}
+
+#resultHolder {
+  background-color: #f8f9fa;
+  color: #00608a;
+  border: 1px solid #656565;
+  padding-top: 4px;
+  padding-bottom: 16px;
+  padding-left: 10px;
+  margin: 4px;
+  border-radius: 5px;
+  font-family: 'OCR A Std', monospace;
+}
+
+#backgroundImg {
+  background-image: url("../images/OrangeWaves.jpg");
+  background-size: cover;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  opacity: 0.1;
+  filter: blur(8px);
+}
+
+.bottom-logo {
+  padding: 10px;
+  width: clamp(32px, 30%, 256px);
+  height: auto;
+}
