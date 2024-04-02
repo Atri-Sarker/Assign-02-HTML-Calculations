@@ -8,8 +8,8 @@ body {
 }
 
 #resultHolder {
-  background-color: #f8f9fa;
-  color: #00608a;
+  background-color: rgb(254, 231, 215);
+  color: hsl(190, 100%, 30%);
   border: 1px solid #656565;
   padding-top: 4px;
   padding-bottom: 16px;

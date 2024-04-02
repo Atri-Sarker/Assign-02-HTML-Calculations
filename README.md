@@ -4,4 +4,4 @@
 
 [![Deploy Pages](README.md/../../../workflows/Deploy%20Pages/badge.svg)](README.md/../../../actions)
 
-This site can be found at: [https://<OWNER>.github.io/<REPOSITORY>](https://<OWNER>.github.io/<REPOSITORY>)
+This site can be found at: [https://icd2o-digital-tech-atrisarker.github.io/Assign-02-HTML-Calculations/](https://icd2o-digital-tech-atrisarker.github.io/Assign-02-HTML-Calculations/)
