@@ -65,7 +65,7 @@ function calculateQuadraticFormulaRoot(a, b, c) {
 
   // Discriminant
   let discriminant = (b ** 2) - (4 * a * c);
-  
+
   // Square Root of Discriminant
   let rootResult = Math.sqrt(discriminant);
 
@@ -140,7 +140,7 @@ function validateInputs() {
   // Checks, regex checks ( I originally used .match() but decided to use RegExp().test() arbitrarily)
   let checkA = RegExp(inputA.pattern).test(inputA.value) && (inputA.value != "");
   let checkB = RegExp(inputB.pattern).test(inputB.value) && (inputB.value != "");
-  let checkC = RegExp(inputC.pattern).test(inputC.value) && (inputC.value != "")
+  let checkC = RegExp(inputC.pattern).test(inputC.value) && (inputC.value != "");
 
   // Validate
   valid = Boolean(checkA && checkB && checkC);
