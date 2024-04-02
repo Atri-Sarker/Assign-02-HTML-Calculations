@@ -100,7 +100,7 @@ function onCalculateBtnClick() {
   let [m, h, k] = CalculatePerfectSquare(a, b, c);
 
   // Vertex Form String
-  let vertexForm = "" + fNum(m) + "(x" + (h >= 0 ? " + " : " - ") + fNum(Math.abs(h)) + ")²" + (k >= 0 ? " + " : " - ") + fNum(Math.abs(k));
+  let vertexForm = "" + fNum(m) + "(x" + (h >= 0 ? " - " : " + ") + fNum(Math.abs(h)) + ")²" + (k >= 0 ? " + " : " - ") + fNum(Math.abs(k));
 
   // Vertex Coordinate String
   let vertexCoordinate = `( ${fNum(h)} , ${fNum(k)} )`
