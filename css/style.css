@@ -20,7 +20,7 @@ body {
 }
 
 #backgroundImg {
-  background-image: url("../images/OrangeWaves.jpg");
+  background-image: url("../images/orangeWaves.jpg");
   background-size: cover;
   position: absolute;
   width: 100vw;
